@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .container1 {
+    background-color: rgb(83, 237, 65);
+} */
+
+img {
+    width: 80vh;
+}
+
+.container2 {
+    display: flex;
+    
+    flex-direction : row;
+}
+.cont1{
+	display: flex;
+}
+
+.para {
+    margin: 10px 15px;
+}
+
+@media only screen and (max-width:553px) {
+    .container2 {
+        display: inline;
+    }
+}
